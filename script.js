@@ -1,5 +1,5 @@
 document.getElementById('playBtn').addEventListener('click', () => {
-    // ↓ Reemplaza ESTA URL por tu enlace de YouTube ↓
+
     window.open('https://www.youtube.com/watch?v=Zn37zIBGv5M', '_blank');
 });
 
