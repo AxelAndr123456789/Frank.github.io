@@ -1,5 +1,6 @@
 document.getElementById('playBtn').addEventListener('click', () => {
-    window.open('https://www.youtube.com/watch?v=Zn37zIBGv5M', '_blank'); // Tu enlace directo a Reina Pepiada
+    // ↓ Reemplaza ESTA URL por tu enlace de YouTube ↓
+    window.open('https://www.youtube.com/watch?v=Zn37zIBGv5M', '_blank');
 });
 
 // Frases que cambian
@@ -54,8 +55,3 @@ function animateHearts() {
 
 setInterval(createHeart, 300);
 animateHearts();
-    requestAnimationFrame(animateHearts);
-}
-
-setInterval(createHeart, 300);
-animateHearts();  
