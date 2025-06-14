@@ -1,6 +1,6 @@
 document.getElementById('playBtn').addEventListener('click', () => {
 
-    window.open('https://www.youtube.com/watch?v=TU_ENLACE_DE_YOUTUBE', '_blank');
+    window.open('https://www.youtube.com/watch?v=Zn37zIBGv5M', '_blank');
 });
 
 
