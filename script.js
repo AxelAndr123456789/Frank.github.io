@@ -1,9 +1,8 @@
 document.getElementById('playBtn').addEventListener('click', () => {
-
-    window.open('https://www.youtube.com/watch?v=Zn37zIBGv5M');
+    window.open('https://www.youtube.com/watch?v=Zn37zIBGv5M', '_blank'); // Tu enlace directo a Reina Pepiada
 });
 
-
+// Frases que cambian
 const phrases = [
     "Desde que llegaste, hiciste que todo tenga sentido.",
     "Eres la sonrisa que ilumina mis días.",
@@ -50,6 +49,11 @@ function animateHearts() {
         h.y -= 2;
         if (h.y < -20) hearts.splice(i, 1);
     }
+    requestAnimationFrame(animateHearts);
+}
+
+setInterval(createHeart, 300);
+animateHearts();
     requestAnimationFrame(animateHearts);
 }
 
